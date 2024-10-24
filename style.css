@@ -16,6 +16,8 @@
 
 body{
     background-image: url(imagens/bg.png);
+    display: flex;
+    flex-direction: column;
 }
 
 header{
@@ -46,7 +48,7 @@ section{
 .boxProduto{
     background-color: var(--corCards);
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     width: 890px;
     align-items: center;
     border-radius: 20px;
