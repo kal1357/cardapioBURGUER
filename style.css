@@ -52,6 +52,7 @@ section{
     width: 890px;
     align-items: center;
     border-radius: 20px;
+    justify-content: center;
 }
 
 .boxTexto{
