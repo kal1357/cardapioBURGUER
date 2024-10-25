@@ -20,6 +20,7 @@ body{
     flex-direction: column;
 }
 
+
 header{
     background-color: var(--corNavegacao);
     padding: 20px;
@@ -28,6 +29,9 @@ header{
     align-items: center;
     justify-content: center;
     padding: 25px;
+    border-bottom: #ffffff 1px solid;
+    
+
 }
 
 a{
