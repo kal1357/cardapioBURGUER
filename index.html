@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="p-0 sticky-top ">
+    <header class="sticky-top">
         <!-- <img src="imagens/logo.png" alt="logo BBQ-BRO" class="logo">
         <nav>
             <a href="#hamb">Hamburgueres</a>
@@ -18,7 +18,7 @@
         </nav> -->
 
 
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-dark">
             <div class="container-fluid">
               <img src="imagens/logo.png" alt="logo" class="navbar-brand">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,28 +57,28 @@
         <section id="carrinho" >
 
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
+                <div class="offcanvas-header d-flex">
                   <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
                   <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body d-flex flex-column ">
+                <div class="offcanvas-body">
                     <!-- título 2 - CARRINHO --> 
                      <h2>Carrinho de Compras</h2>
                      
                     <!-- Atividade 3 : adicionar um card de produto. Use o card horizontal do bootstrap5. Nele insira a imagem de um produto, o nome e o valor -->
                     
                     <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+                        <div class="d-flex justify-content-between align-items-center">
                           <div class="col-md-4">
                             <!-- altere a imagem aqui -->
-                            <img src="imagens/bebida01.png" class="img-fluid rounded-start" alt="coca lata">
+                            <img src="imagens/burger01.png" class="img-fluid rounded-start" alt="hambúrguer">
                           </div>
                           <div class="col-md-8">
                             <div class="card-body">
                                 <!-- adicione as informacoes do produto aqui -->
-                                <h5 class="card-title text-dark text-center">Coca-Cola</h5>
-                                <p class="card-text text-dark text-center">R$ 5,00</p>
-                                <div class=" d-flex justify-content-between  align-items-center">
+                                <h5 class="card-title text-dark text-center">Hambúrguer - R$ 22,50</h5>
+                                
+                                <div class=" d-flex justify-content-center  align-items-center">
                                     <button class="btn btn-warning">+</button>
                                     <p class="text-dark">1</p>
                                     <button class="btn btn-warning">-</button>
@@ -114,11 +114,9 @@
                           </div>
                         </div>
                     </div>
-
-                    <div id="total align-self-end" class="card mb-3">
-                        <h2>TOTAL : R$ 10,00</h2>
+                    <div id="total" class="card mb-3 ">
+                        <h2>TOTAL : R$ 27,50</h2>
                     </div>
-                
                 </div>
               </div>
             
