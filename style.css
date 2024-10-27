@@ -96,3 +96,6 @@ button{
 #Desenvolvido{
     color: #999;
 }
+[id]:target {
+    padding-top: 150px; /* ajuste conforme a altura do seu cabeçalho */
+}
